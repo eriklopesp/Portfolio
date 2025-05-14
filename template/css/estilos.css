@@ -1,0 +1,84 @@
+@import "config.css";
+
+/*CSS DA BARRA DE ROLAGEM*/
+body::-webkit-scrollbar-track {background-color:#ececec;}
+body::-webkit-scrollbar {width:8px; background:#1D2731;}
+body::-webkit-scrollbar-thumb {background:#103964;}
+/*CSS DA BARRA DE ROLAGEM*/
+
+/* #topo {width:100%; height:auto; padding:30px 0; background:#8899a5; text-overflow: unset;} */
+
+#topo {width: 100%; height: auto; padding: 30px 0; background: linear-gradient(to right, #032e4d, #ccd6dd); text-overflow: unset;}
+
+#capa_img_autor {float:left; width:18%; transition:.5s cubic-bezier(0.86, 0, 0.07, 1);}
+#capa_img_autor:hover {transform:scale(1.2);}
+#capa_img_autor img {border-radius:50%;}
+
+#info_topo {float:right; width:80%; height:auto; margin-top:16px;}
+#info_topo h1 {color:#fff; font-size:40px; line-height:50px; font-weight:700;}
+#info_topo h2 {color:#E4E4E4; font:25px; line-height:35px; font-weight:400;}
+#info_topo ul {margin:10px 0 0 0; padding:0; list-style:none;}
+#info_topo ul li {display:inline-block;}
+#info_topo ul li a {display:inline-block; width:38px; height:38px; border-radius:38px; line-height:38px; text-align:center; color:#fff; font-size:19px; background:#D9B310; margin:0 7px 7px 0; transition:.5s;}
+#info_topo ul li a:hover {background:#385069; color:#D9B310; transform:scale(1.3);}
+
+.btn_wpp {float:right; display:block; padding:15px 25px; border-radius:70px; font-size:18px; background:#54ba4e; color:#fff; margin-top:-90px; box-shadow:0px 5px 15px 0px rgba(50, 50, 50, 0.5); transition:all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);}
+.btn_wpp:hover {transform:scale(1.2);}
+
+#geral {width:100%; height:auto; min-height:1000px; padding:70px 0; overflow:auto; background:#1D2731;}
+
+#col_left {float:left; width:70%; height:auto;}
+#col_right {float:right; width:27%; height:auto;}
+
+
+.box_branco h1 {color:#E4E4E4; font-size:30px; line-height:40px;}
+.box_branco h2 {color:#E4E4E4;}
+.box_branco p {color:#E4E4E4;}
+.box_branco > .item {width:100%; height:auto; margin:30px 0;}
+
+.teste2 {width: 100%; height: auto; padding: 30px 0; background: linear-gradient(to right, #8899a5, #ccd6dd); text-overflow: unset;}
+#teste2 {color: #ffffff;}
+.teste h1 {color:#ffffff;}
+.teste h3 {color:#ffffff;}
+.teste p {color:#ffffff;}
+.teste {background: #f0f3c6c5;}
+
+.title {color:#e8e8e8; font-weight:700;}
+.title span {color:#e8e8e8; font-weight:400; font-size:17px;}
+.title span a {color:#e8e8e8;}
+.title span a:hover {text-decoration:underline;}
+
+.links_info {margin:0; padding:0; list-style:none;}
+.links_info li {display:block; padding:5px 0; color:#E4E4E4;}
+.links_info li i {color:#ccd1d6; width:20px;}
+.links_info li a {color:#D9B310;}
+
+/*Progress*/
+.box_skills {width:100%; height:auto; margin:20px 0;}
+.box_skills h2 {display:block; margin:0; padding:0; font-weight:bold; font-size:18px; color:#e8e8e8;}
+.base_cinza {width:100%; height:10px; background:#e8e8e8; overflow:hidden;}
+.cor_largura {width:50%; background:#D9B310; color:#fff; height:10px; padding-left:3%;}
+/*Progress*/
+
+#footer {width:100%; height:auto; padding:15px 0; text-align:center; color:#fff; font-weight:400; background:#1D2731; border-top:1px solid #D9B310;}
+
+
+/* CSS RESPONSIVO */
+
+@media screen and (max-width: 1280px) {
+body, html {width:100%;}
+.container {width:90%;}
+}
+
+@media screen and (max-width: 1000px) {
+#geral {padding:30px 0;}
+#col_left,
+#col_right {float:none; width:100%; height:auto; max-width:900px; margin:20px auto;}	
+}
+
+@media screen and (max-width: 900px) {
+#topo {padding:30px 0;}
+#capa_img_autor {float:none; width:100%; text-align:center;}
+#info_topo {float:none; width:100%; height:auto; margin:0; text-align:center;}
+.btn_wpp {float:none; margin:20px auto 0 auto; max-width:270px; text-align:center;}	
+}
