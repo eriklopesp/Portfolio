@@ -8,7 +8,7 @@ body::-webkit-scrollbar-thumb {background:#103964;}
 
 /* #topo {width:100%; height:auto; padding:30px 0; background:#8899a5; text-overflow: unset;} */
 
-#topo {width: 100%; height: auto; padding: 30px 0; background: linear-gradient(to right, #032e4d, #ccd6dd); text-overflow: unset;}
+#topo {width: 100%; height: auto; padding: 30px 0; background: linear-gradient(to right, #c7d6e0, #2674ab); text-overflow: unset;}
 
 #capa_img_autor {float:left; width:18%; transition:.5s cubic-bezier(0.86, 0, 0.07, 1);}
 #capa_img_autor:hover {transform:scale(1.2);}
@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb {background:#103964;}
 .btn_wpp {float:right; display:block; padding:15px 25px; border-radius:70px; font-size:18px; background:#54ba4e; color:#fff; margin-top:-90px; box-shadow:0px 5px 15px 0px rgba(50, 50, 50, 0.5); transition:all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);}
 .btn_wpp:hover {transform:scale(1.2);}
 
-#geral {width:100%; height:auto; min-height:1000px; padding:70px 0; overflow:auto; background:#1D2731;}
+#geral {width:100%; height:auto; min-height:1000px; padding:70px 0; overflow:auto; background: linear-gradient(to right, #032e4d, #2674ab);}
 
 #col_left {float:left; width:70%; height:auto;}
 #col_right {float:right; width:27%; height:auto;}
@@ -33,8 +33,9 @@ body::-webkit-scrollbar-thumb {background:#103964;}
 
 .box_branco h1 {color:#E4E4E4; font-size:30px; line-height:40px;}
 .box_branco h2 {color:#E4E4E4;}
+.box_branco h3 {color:#E4E4E4;}
 .box_branco p {color:#E4E4E4;}
-.box_branco > .item {width:100%; height:auto; margin:30px 0;}
+.box_branco > .item {background-color: #54ba4e; width:100%; height:auto; margin:30px 0;}
 
 .teste2 {width: 100%; height: auto; padding: 30px 0; background: linear-gradient(to right, #8899a5, #ccd6dd); text-overflow: unset;}
 #teste2 {color: #ffffff;}
@@ -67,7 +68,7 @@ body::-webkit-scrollbar-thumb {background:#103964;}
 
 @media screen and (max-width: 1280px) {
 body, html {width:100%;}
-.container {width:90%;}
+.container {width:80%;}
 }
 
 @media screen and (max-width: 1000px) {
