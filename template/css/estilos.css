@@ -34,15 +34,9 @@ body::-webkit-scrollbar-thumb {background:#103964;}
 .box_branco h1 {color:#E4E4E4; font-size:30px; line-height:40px;}
 .box_branco h2 {color:#E4E4E4;}
 .box_branco h3 {color:#E4E4E4;}
+.box_branco h5 {color:#E4E4E4;font-weight: bold;}
 .box_branco p {color:#E4E4E4;}
 .box_branco > .item {background-color: #54ba4e; width:100%; height:auto; margin:30px 0;}
-
-.teste2 {width: 100%; height: auto; padding: 30px 0; background: linear-gradient(to right, #8899a5, #ccd6dd); text-overflow: unset;}
-#teste2 {color: #ffffff;}
-.teste h1 {color:#ffffff;}
-.teste h3 {color:#ffffff;}
-.teste p {color:#ffffff;}
-.teste {background: #f0f3c6c5;}
 
 .title {color:#e8e8e8; font-weight:700;}
 .title span {color:#e8e8e8; font-weight:400; font-size:17px;}
@@ -57,6 +51,7 @@ body::-webkit-scrollbar-thumb {background:#103964;}
 /*Progress*/
 .box_skills {width:100%; height:auto; margin:20px 0;}
 .box_skills h2 {display:block; margin:0; padding:0; font-weight:bold; font-size:18px; color:#e8e8e8;}
+.box_skills h3 {display:block; margin:0; padding:0; font-size:30px; color:#e8e8e8;}
 .base_cinza {width:100%; height:10px; background:#e8e8e8; overflow:hidden;}
 .cor_largura {width:50%; background:#D9B310; color:#fff; height:10px; padding-left:3%;}
 /*Progress*/
