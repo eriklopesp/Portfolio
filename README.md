@@ -27,13 +27,7 @@ CSS3 — layout, responsividade e estilo
 
 📌 Nenhum framework foi utilizado. Todo o layout e comportamento visual foram feitos manualmente.
 
-📁 Estrutura do Projeto
-/
-├── index.html          # Página principal
-├── favicon.ico         # Ícone do site
-├── favicon.svg         # Ícone em SVG
-├── site.webmanifest    # Configuração do PWA
-└── assets/             # Imagens e recursos estáticos (se aplicável)
+--
 
 🚀 Como Visualizar Localmente
 
